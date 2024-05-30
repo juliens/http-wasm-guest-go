@@ -1,4 +1,4 @@
-module github.com/http-wasm/http-wasm-guest-tinygo
+module github.com/http-wasm/http-wasm-guest-go
 
 go 1.20
 
