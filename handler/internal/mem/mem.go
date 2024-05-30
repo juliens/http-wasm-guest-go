@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/http-wasm/http-wasm-guest-tinygo/handler/internal/imports"
+	"github.com/http-wasm/http-wasm-guest-go/handler/internal/imports"
 )
 
 var (

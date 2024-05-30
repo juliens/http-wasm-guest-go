@@ -4,9 +4,9 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/http-wasm/http-wasm-guest-tinygo/handler/api"
-	"github.com/http-wasm/http-wasm-guest-tinygo/handler/internal/imports"
-	"github.com/http-wasm/http-wasm-guest-tinygo/handler/internal/mem"
+	"github.com/http-wasm/http-wasm-guest-go/handler/api"
+	"github.com/http-wasm/http-wasm-guest-go/handler/internal/imports"
+	"github.com/http-wasm/http-wasm-guest-go/handler/internal/mem"
 )
 
 var (

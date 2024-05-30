@@ -1,8 +1,8 @@
-//go:build tinygo.wasm || wasip1
+//go:build go.wasm || wasip1
 
 package imports
 
-import "github.com/http-wasm/http-wasm-guest-tinygo/handler/api"
+import "github.com/http-wasm/http-wasm-guest-go/handler/api"
 
 //go:wasmimport http_handler enable_features
 func enableFeatures(features api.Features) api.Features

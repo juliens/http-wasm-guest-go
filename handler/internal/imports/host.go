@@ -1,8 +1,8 @@
 // Package imports re-exports imported wasm functions to work around an error
-// compiling TinyGo to wasm "cannot use an exported function as value".
+// compiling go to wasm "cannot use an exported function as value".
 package imports
 
-import "github.com/http-wasm/http-wasm-guest-tinygo/handler/api"
+import "github.com/http-wasm/http-wasm-guest-go/handler/api"
 
 // BufLimit is the possibly zero maximum length of a result value to write in
 // bytes. If the actual value is larger than this, nothing is written to
